@@ -4,13 +4,14 @@
   "license": "AGPL-3.0",
   "scripts": {
     "themes": "echo Thèmes disponibles: `ls node_modules/bulmaswatch/*/_overrides.scss|cut -d/ -f3|tr '\n' ' '`",
-    "sass": "test -n \"$THEME\" && node-sass --output-style compressed --include-path node_modules/bulmaswatch/$THEME --include-path node_modules/bulma/sass --output css bulma.scss && node-sass --watch --output-style compressed --include-path node_modules/bulmaswatch/$THEME --include-path node_modules/bulma/sass --output css bulma.scss || echo Set THEME env var.",
+    "sass": "test -n \"$THEME\" && node-sass --output-style compressed --include-path node_modules/bulmaswatch/$THEME --include-path node_modules/font-awesome/scss --include-path node_modules/bulma/sass --output css bulma.scss && node-sass --watch --output-style compressed --include-path node_modules/bulmaswatch/$THEME --include-path node_modules/font-awesome/scss --include-path node_modules/bulma/sass --output css bulma.scss || echo Set THEME env var.",
     "dev": "browser-sync start --server --no-open --files 'css/*.css' --files '*.html' --files 'js/*.js'"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "bulma": "^0.5.3",
     "bulmaswatch": "^0.5.1",
+    "font-awesome": "^4.7.0",
     "node-sass": "^4.5.3"
   }
 }
