@@ -11,8 +11,9 @@
   <nav class="navbar is-info" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item is-active" href="#">Accueil</a>
-      <a class="navbar-item" href="#">À propos</a>
-      <a class="navbar-item" href="#">Contact</a>
+      <a class="navbar-item bg-success" href="#a-propos">À propos</a>
+      <a class="navbar-item bg-danger" href="#manifeste">Manifeste</a>
+      <a class="navbar-item bg-warning" href="#contact">Contact</a>
     </div>
   </nav>
 
@@ -29,9 +30,16 @@
   </section>
 
   <section class="card">
-    <div class="container">
+    <header class="card-header">
+      <div class="container">
+        <p class="card-header-title">
+          Statistiques actuelles
+        </p>
+      </div>
+    </header>
+    <div class="card-content container">
       <nav class="level is-mobile">
-        <div class="level-item has-text-centered">
+        <div class="level-item has-text-centered" title="À la baisse">
           <div>
             <p class="title">
               40
@@ -43,35 +51,31 @@
           </div>
         </div>
 
-        <div class="level-item has-text-centered">
+        <div class="level-item has-text-centered" title="Incluant paroisses, villages, villages indiens, etc.">
           <div>
             <p class="title">1,136</p>
             <p class="heading">
               Municipalités
-              <abbr title="Incluant paroisses, villages, villages indiens, etc.">
-                <span class="icon is-size-5">
-                  <i class="mdi mdi-asterisk" aria-hidden="true"></i>
-                </span>
-              </abbr>
+              <span class="icon is-size-5">
+                <i class="mdi mdi-asterisk" aria-hidden="true"></i>
+              </span>
               <span class="is-sr">Incluant paroisses, villages, villages indiens, etc.</span>
             </p>
           </div>
         </div>
-        <div class="level-item has-text-centered">
+        <div class="level-item has-text-centered" title="Selon le ministère de l'Agriculture, des Pêcheries et de l'Alimentation du Québec">
           <div>
             <p class="title">1,090</p>
             <p class="heading">
               Sites web
-              <abbr title="Selon le ministère de l'Agriculture, des Pêcheries et de l'Alimentation du Québec">
-                <span class="icon is-size-5">
-                  <i class="mdi mdi-asterisk" aria-hidden="true"></i>
-                </span>
-              </abbr>
+              <span class="icon is-size-5">
+                <i class="mdi mdi-asterisk" aria-hidden="true"></i>
+              </span>
               <span class="is-sr">Selon le ministère de l'Agriculture, des Pêcheries et de l'Alimentation du Québec</span>
             </p>
           </div>
         </div>
-        <div class="level-item has-text-centered">
+        <div class="level-item has-text-centered" title="Certificat TLS (ou SSL) valide">
           <div>
             <p class="title">320</p>
             <p class="heading">
@@ -84,14 +88,183 @@
         </div>
       </nav>
     </div>
+    <footer class="card-footer">
+      <div class="container">
+        <h2 class="subtitle has-text-centered rym-padded">
+          Curieux d'en savoir plus? <b>Consultez <a href="#stats">les statistiques complètes</a></b>, incluant l'historique.
+        </h2>
+      </div>
+    </footer>
   </section>
 
   <section class="section">
     <div class="container">
-      <h1 class="title is-2">Hello World <small>sub</small></h1>
+      <h4 class="title is-4">Êtes-vous une entreprise de services ou une municipalité?</h4>
+      <div class="columns">
+        <div class="column is-half">
+          <div class="card">
+            <header class="card-header">
+              <div class="container">
+                <p class="card-header-title">
+                  Vous cherchez des services
+                </p>
+              </div>
+            </header>
+            <div class="card-content">
+              <p>
+                Votre municipalité cherche des services informatique?
+                Vous avez lu notre <a href="#manifeste">manifeste</a>
+                et vous voulez améliorer votre processus de sécurité informatique?
+                N'attendez plus et contactez nous.
+              </p>
+              <br>
+              <p class="has-text-centered">
+                <button class="button is-info">Remplir le formulaire de municipalité</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="card">
+            <header class="card-header">
+              <div class="container">
+                <p class="card-header-title">
+                  Vous offrez des services
+                </p>
+              </div>
+            </header>
+            <div class="card-content">
+              <p>
+                Votre entreprise offre des services informatique aux municipalités?
+                Vous vous engagez à maintenir la sécurité des services offerts dans un temps raisonnable,
+                en accord avec notre <a href="#manifeste">manifeste</a>?
+              </p>
+              <br>
+              <p class="has-text-centered">
+                <button class="button is-primary">Remplir le formulaire d'entreprise</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="a-propos" class="hero is-success is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-2">À propos</h1>
+        <a href="#">top</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-4">Méthodologie</h2>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-4">Aspects mesurés</h2>
+      <div class="content">
+        <ul>
+          <li>https</li>
+          <li>logiciel cms (wordpress, drupal)</li>
+          <li>version (et failles de sécurité)</li>
+          <li>compte utilisateur</li>
+          <li>formulaire</li>
+          <li>population desservi</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-4">Code source</h2>
+      <p>Code source...</p>
+      <p>
+        En modifiant la liste des sites web analysés, on peut offrir un indice comparable
+        adapté à d'autres domaines.
+      </p>
+
+    </div>
+  </section>
+
+
+
+  <section id="manifeste" class="hero is-danger is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-2">Manifeste</h1>
+        <a href="#">top</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>La sécurité sur le web et internet en général est très importante.</p>
       <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
     </div>
   </section>
+
+
+
+
+  <section id="contact" class="hero is-warning is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-2">Nous contacter</h1>
+        <a href="#">top</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+      <p>La sécurité sur le web et internet en général est très importante.</p>
+      <p>Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Here I was. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb. Mary had a little lamb.</p>
+    </div>
+  </section>
+
+
+
   <footer class="footer">
     <div class="container has-text-centered">
       <p>
