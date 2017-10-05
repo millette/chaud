@@ -15,10 +15,9 @@ $mdi-font-path: "/node_modules/mdi/fonts";
 
 .title > small {
   font-size: 1.25rem;
-  color: $light;
+  color: $grey-light;
 }
 
-// Accessibility
 .is-sr {
   position: absolute;
   width: 1px;
@@ -30,6 +29,7 @@ $mdi-font-path: "/node_modules/mdi/fonts";
   border: 0;
 }
 
+/*
 .is-sr-focusable {
   &:active, &:focus {
     position: static;
@@ -39,4 +39,33 @@ $mdi-font-path: "/node_modules/mdi/fonts";
     overflow: visible;
     clip: auto;
   }
+}
+*/
+
+.bg-danger {
+  background: $danger;
+}
+
+.bg-danger:hover {
+  background: lighten($danger, 10%) !important;
+}
+
+.bg-warning {
+  background: $warning;
+}
+
+.bg-warning:hover {
+  background: lighten($warning, 10%) !important;
+}
+
+.bg-success {
+  background: $success;
+}
+
+.bg-success:hover {
+  background: lighten($success, 10%) !important;
+}
+
+.rym-padded {
+  padding: 1rem;
 }
