@@ -69,3 +69,11 @@ $mdi-font-path: "/node_modules/mdi/fonts";
 .rym-padded {
   padding: 1rem;
 }
+
+p {
+  margin-bottom: 1rem;
+}
+
+h2.title:not(:last-child) {
+  margin: 1rem 0 0.75rem 0;
+}
