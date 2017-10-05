@@ -82,6 +82,9 @@ p {
   margin-bottom: 1rem;
 }
 
-h2.title:not(:last-child) {
+h2.title:not(:last-child),
+h2.subtitle:not(:last-child),
+h3.title:not(:last-child),
+h3.subtitle:not(:last-child) {
   margin: 1rem 0 0.75rem 0;
 }
