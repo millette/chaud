@@ -58,6 +58,14 @@ $mdi-font-path: "/node_modules/mdi/fonts";
   background: lighten($warning, 10%) !important;
 }
 
+.bg-info {
+  background: $info;
+}
+
+.bg-info:hover {
+  background: lighten($info, 10%) !important;
+}
+
 .bg-success {
   background: $success;
 }
