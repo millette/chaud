@@ -22,7 +22,7 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title is-1">Indice de sécurité web municipal <small>Québec</small></h1>
-        <h2 class="subtitle is-3">Mis à jour à chaque mois</h2>
+        <h2 class="subtitle is-3">Mis à jour à chaque mois <small>(version préliminaire)</small></h2>
         <p class="is-size-5">
           <i>Les citoyens devraient-ils faire confiance aux sites web de leurs municipalités&#8239;?</i>
         </p>
@@ -39,7 +39,7 @@
           </div>
           <div class="column">
             <p>
-              Un indice de 100 signifie une sécurité parfaite de tous les sites.
+              Un indice de <b>100</b> signifie une sécurité parfaite de tous les sites.
             </p>
           </div>
         </div>
@@ -57,18 +57,6 @@
     </header>
     <div class="card-content container">
       <nav class="level is-mobile">
-        <div class="level-item has-text-centered" title="À la baisse, 100 représente la perfection">
-          <div>
-            <p class="title">
-              40
-              <span class="icon is-size-4">
-                <i class="mdi mdi-arrow-down" aria-hidden="true"></i>
-              </span>
-            </p>
-            <p class="heading">Indice</p>
-          </div>
-        </div>
-
         <div class="level-item has-text-centered" title="Incluant paroisses, villages, villages indiens, etc.">
           <div>
             <p class="title">1,136</p>
@@ -104,6 +92,18 @@
             </p>
           </div>
         </div>
+        <div class="level-item has-text-centered" title="À la baisse, 100 représente la perfection">
+          <div>
+            <p class="title">
+              40
+              <span class="icon is-size-4">
+                <i class="mdi mdi-arrow-down" aria-hidden="true"></i>
+              </span>
+            </p>
+            <p class="heading">Indice</p>
+          </div>
+        </div>
+
       </nav>
     </div>
     <footer class="card-footer rym-padded">
@@ -118,7 +118,7 @@
 
   <section class="section">
     <div class="container">
-      <h4 class="title is-4 has-text-centered">Êtes-vous une entreprise de services ou une municipalité&#8239;?</h4>
+      <h4 class="title is-4 has-text-centered">Êtes-vous une entreprise de services en sécurité web ou une municipalité&#8239;?</h4>
       <div class="columns">
         <div class="column is-half">
           <div class="card">
@@ -368,7 +368,7 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title is-2">Notes <small>dev</small></h1>
-        <h2 class="subtitle is-4">Liens manquants, etc.</h2>
+        <h2 class="subtitle is-4">Liens manquants, todo, etc.</h2>
         <a href="#">top</a>
       </div>
     </div>
@@ -376,18 +376,34 @@
 
   <section class="section">
     <div class="container content">
-      <ul>
-        <li id="stats">Lien vers les stats</li>
-        <li id="muni-form">Lien vers le formulaire muni</li>
-        <li id="cie-form">Lien vers le formulaire cie</li>
-        <li id="cefrio">Référence à NETendances du CEFRIO</li>
-      </ul>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum nisl sit amet orci porta, eu congue metus congue. Donec vitae sapien augue. Donec turpis lorem, pellentesque in feugiat tempor, suscipit sit amet tortor. Integer hendrerit tellus at magna luctus placerat. Mauris viverra vitae ante nec iaculis. Maecenas mollis non turpis at maximus. Nullam laoreet suscipit interdum. Ut tincidunt eleifend urna nec porttitor. Praesent consequat libero lacus, nec placerat nisi sagittis facilisis. Aenean in enim ac lorem placerat vulputate id vel dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce convallis, eros ut ullamcorper facilisis, orci augue dictum justo, ut tempor massa est quis tellus. Mauris ultrices nulla et felis hendrerit efficitur. Donec at diam dictum, congue nibh in, eleifend massa. Duis euismod sollicitudin ultricies.
-      </p>
-      <p>
-        Nullam nec pretium neque. Nullam egestas eu neque et venenatis. Proin magna ex, convallis at lobortis vitae, tempus ac odio. Phasellus mattis nec felis finibus interdum. Fusce porttitor sollicitudin ullamcorper. Suspendisse in dictum ex, eget lacinia lectus. Vivamus bibendum vel magna eu cursus. Fusce et ante facilisis, faucibus ante nec, suscipit sapien. Nullam eu purus in ante tempor pellentesque in at arcu. Donec orci mauris, iaculis a ex sit amet, sagittis elementum lectus. Sed placerat venenatis viverra. Suspendisse dictum tincidunt dui a lacinia. Morbi non massa sapien. In hac habitasse platea dictumst.
-      </p>
+      <div class="columns">
+        <div class="column">
+          <h2 class="title is-4">TODO</h2>
+          <ul>
+            <li>Splitter le contenu sur plusieurs pages, fichiers html</li>
+            <li>Clarifier les <i>call to action</i> sur les différentes <i>landing pages</i></li>
+            <li>Compléter le manifeste</li>
+            <li>Liste de partenaires (cryptoquebec par exemple, etc.)</li>
+            <li>Politique de confidentialité</li>
+            <li>Formulaire universel (général, pour muni, pour cie)</li>
+            <li>Décrire la méthodologie utilisée pour calculer l'indice</li>
+            <li>Statistiques historiques et par régions</li>
+            <li>JavaScript pour dynamiser certains aspects de la page</li>
+            <li>Choisir le nom; tenté par l'Indice MuniduWeb (https://indice.muniduweb.com/)</li>
+          </ul>
+        </div>
+        <div class="column is-narrow">
+          <div class="box">
+            <h2 class="title is-4">Liens manquants</h2>
+            <ul>
+              <li id="stats">Lien vers les stats</li>
+              <li id="muni-form">Lien vers le formulaire muni</li>
+              <li id="cie-form">Lien vers le formulaire cie</li>
+              <li id="cefrio">Référence à NETendances du CEFRIO</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 

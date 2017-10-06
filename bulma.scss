@@ -13,8 +13,9 @@
 $mdi-font-path: "/fonts";
 @import "materialdesignicons";
 
-.title > small {
-  font-size: 1.25rem;
+.title > small,
+.subtitle > small {
+  font-size: 65%;
   color: $grey-light;
 }
 
