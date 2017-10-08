@@ -511,9 +511,9 @@
   <script>
     var $themeCss = document.querySelectorAll('link')[1]
     document.querySelector('#theme-chooser').onchange = function (ev) {
-      $themeCss.href = ev.explicitOriginalTarget.value === 'Thème'
+      $themeCss.href = ev.target.value === 'Thème'
         ? '/css/bulma.css'
-        : ('/css/theme-' + ev.explicitOriginalTarget.value + '.css')
+        : ('/css/theme-' + ev.target.value + '.css')
     }
   </script>
   </body>
