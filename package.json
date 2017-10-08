@@ -6,8 +6,11 @@
     "ln-roadmap": "ln -s ../roadmap.md build",
     "postinstall": "ln -s ../roadmap.md build && ln -s node_modules/mdi/fonts && mkdir build && ln -s ../css build && ln -s ../index.html build && ln -s ../node_modules/mdi/fonts build",
     "now": "now ./build --static --name chaud --public",
-    "themes": "echo Thèmes disponibles: `ls node_modules/bulmaswatch/*/_overrides.scss|cut -d/ -f3|tr '\n' ' '`",
-    "sass": "test -n \"$THEME\" && node-sass --output-style compressed --include-path node_modules/bulmaswatch/$THEME --include-path node_modules/mdi/scss --include-path node_modules/bulma/sass --output css bulma.scss && node-sass --watch --output-style compressed --include-path node_modules/bulmaswatch/$THEME --include-path node_modules/mdi/scss --include-path node_modules/bulma/sass --output css bulma.scss || echo Set THEME env var.",
+    "themes": "echo Thèmes disponibles: && echo `ls node_modules/bulmaswatch/*/_overrides.scss|cut -d/ -f3|tr '\n' ' '`",
+    "sass-themes": "scripts/theme.sh all",
+    "sass-main": "scripts/theme.sh main",
+    "sass-theme": "scripts/theme.sh $1",
+    "sass": "test -n \"$THEME\" && scripts/theme.sh bulma && scripts/theme.sh main && node-sass --watch --output-style compressed --include-path node_modules/bulmaswatch/$THEME --include-path node_modules/mdi/scss --include-path node_modules/bulma/sass --output css sass || echo Set THEME env var.",
     "dev": "browser-sync start --server --no-open --files 'css/*.css' --files '*.html' --files 'js/*.js'"
   },
   "devDependencies": {
