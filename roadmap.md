@@ -6,14 +6,44 @@ Le site Indice MuniduWeb a un double objectif:
 
 Le site devra trouver l'équilibre entre ces deux objectifs et me permettre aussi de gagner un certain revenu soit pour référencements, évaluations ou mises à jour mineures.
 
+## Points d'interrogation
+* Obtenir la visibilité nécessaire
+* Nom du projet, de l'indice, du site web (indice.muniduweb.com ?)
+* Calcul de l'indice (global, par municipalité et par aspects)
+* Bottin public ou privé
+* Modalité de paiements (abonnement, pourcentage, etc.)
+* Organismes partenaires (owasp, cryptoquébec, etc.)
+* Entreprises partenaires (koumbit, evolving web, etc.)
+* Rédaction du manifeste (en 2-3 points au lieu de 6, si possible)
+
 ## Plan de mise en oeuvre
 Étapes de publication et de progression du site web.
 
 ### Indice MuniduWeb
 Avec des vraies données.
 
+1. Confirmer que le site existe (source MAPAQ, données ouvertes)
+2. Confirmer qu'il répond sur https
+3. Rouler wappalyzer
+4. Identifier les versions pour jquery, drupal, wordpress, apache, php, nginx, etc.
+5. Mesurer le retard sur les versions actuelles
+6. Compter le nombre de rustines de sécurité manquantes
+7. Au prorata de la population desservie
+
+Éventuellement:
+
+1. Compte utilisateur
+2. Autres formulaires
+3. Cookie
+4. 3rd party analytics
+5. cdn
+6. annonces 3rd party
+
 ### Formulaires pour mesurer l'intérêt
 Formulaires pour municipalités et pour entreprises.
+
+### Politique de confidentialité
+Rédiger une politique de confidentialité.
 
 ### Vérification du contact municipal
 Pour préserver la sécurité, nous devons nous assurer de communiquer avec un représentant autorisé.
