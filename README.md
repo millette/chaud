@@ -39,3 +39,5 @@ Lance le serveur de développement browser-sync.
 
 ### now script
 Déploie le site sur le service <https://now.sh/>.
+
+Dépend sur [now-cli](https://www.npmjs.com/package/now). Tout à fait optionnel.
