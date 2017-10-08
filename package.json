@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "AGPL-3.0",
   "scripts": {
-    "postinstall": "ln -s node_modules/mdi/fonts && mkdir build && ln -s ../css build && ln -s ../index.html build && ln -s ../node_modules/mdi/fonts build",
+    "ln-roadmap": "ln -s ../roadmap.md build",
+    "postinstall": "ln -s ../roadmap.md build && ln -s node_modules/mdi/fonts && mkdir build && ln -s ../css build && ln -s ../index.html build && ln -s ../node_modules/mdi/fonts build",
     "now": "now ./build --static --name chaud --public",
     "themes": "echo Thèmes disponibles: `ls node_modules/bulmaswatch/*/_overrides.scss|cut -d/ -f3|tr '\n' ' '`",
     "sass": "test -n \"$THEME\" && node-sass --output-style compressed --include-path node_modules/bulmaswatch/$THEME --include-path node_modules/mdi/scss --include-path node_modules/bulma/sass --output css bulma.scss && node-sass --watch --output-style compressed --include-path node_modules/bulmaswatch/$THEME --include-path node_modules/mdi/scss --include-path node_modules/bulma/sass --output css bulma.scss || echo Set THEME env var.",

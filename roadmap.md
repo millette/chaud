@@ -1,5 +1,5 @@
 # Roadmap
-Le site indice muniduweb a un double objectif:
+Le site Indice MuniduWeb a un double objectif:
 
 1. Mesurer la sécurité globale des sites municipaux du Québec
 2. Offrir des services pour améliorer la sécurité
@@ -9,7 +9,7 @@ Le site devra trouver l'équilibre entre ces deux objectifs et me permettre auss
 ## Plan de mise en oeuvre
 Étapes de publication et de progression du site web.
 
-### Indice muniduweb
+### Indice MuniduWeb
 Avec des vraies données.
 
 ### Formulaires pour mesurer l'intérêt

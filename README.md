@@ -16,6 +16,17 @@ Lancer avec ```yarn SCRIPT``` ou ```npm run SCRIPT```, selon votre préférence.
 ### postinstall
 Lancé automatiquement avec ```yarn``` ou ```npm install```. Prépare les *symlinks* nécessaires au développement.
 
+### ln-roadmap
+Si vous avez installé le paquet avant le roadmap, ceci créera le nouveau lien symbolique:
+
+```
+# avec yarn:
+yarn ln-roadmap
+
+# ou si vous préférez npm::
+npm run ln-roadmap
+```
+
 ### themes script
 Obtenir la liste des thèmes disponibles.
 
