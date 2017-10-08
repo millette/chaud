@@ -19,6 +19,16 @@ $mdi-font-path: "/fonts";
   color: $grey-light;
 }
 
+.title > small.num,
+.subtitle > small.num {
+  vertical-align: 20%;
+}
+
+.title > small.num:after,
+.subtitle > small.num:after {
+  content: " \B7 "
+}
+
 .is-sr {
   position: absolute;
   width: 1px;
@@ -29,19 +39,6 @@ $mdi-font-path: "/fonts";
   clip: rect(0,0,0,0);
   border: 0;
 }
-
-/*
-.is-sr-focusable {
-  &:active, &:focus {
-    position: static;
-    width: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-  }
-}
-*/
 
 .bg-danger {
   background: $danger;
@@ -96,7 +93,6 @@ ins {
 }
 
 // adapted from https://github.com/twbs/bootstrap/blob/3f01134031b15a934d5e233bb26a407a7e05492b/scss/mixins/_lists.scss
-// Unstyled keeps list items block level, just removes default browser padding and list-style
 @mixin list-unstyled {
   padding-left: 0;
   list-style: none;
