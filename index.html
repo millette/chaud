@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Indice de sécurité web municipal du Québec</title>
+    <link rel="x-theme stylesheet" href="/css/bulma.css">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/bulma.css">
     <link rel="alternate stylesheet" type="text/css" title="cerulean" href="/css/theme-cerulean.css">
     <link rel="alternate stylesheet" type="text/css" title="cosmo" href="/css/theme-cosmo.css">
     <link rel="alternate stylesheet" type="text/css" title="cyborg" href="/css/theme-cyborg.css">
@@ -42,28 +42,7 @@
           <div class="control has-icons-left">
             <div class="select">
               <select id="theme-chooser">
-                <option selected>Thème</option>
-                <option>cerulean</option>
-                <option>cosmo</option>
-                <option>cyborg</option>
-                <option>darkly</option>
-                <option>default</option>
-                <option>flatly</option>
-                <option>journal</option>
-                <option>litera</option>
-                <option>lumen</option>
-                <option>lux</option>
-                <option>materia</option>
-                <option>minty</option>
-                <option>pulse</option>
-                <option>sandstone</option>
-                <option>simplex</option>
-                <option>slate</option>
-                <option>solar</option>
-                <option>spacelab</option>
-                <option>superhero</option>
-                <option>united</option>
-                <option>yeti</option>
+                <option selected value="/css/bulma.css">Thème</option>
               </select>
             </div>
             <div class="icon is-small is-left">
@@ -527,12 +506,21 @@
     </div>
   </footer>
   <script>
-    var $themeCss = document.querySelectorAll('link')[1]
-    document.querySelector('#theme-chooser').onchange = function (ev) {
-      $themeCss.href = ev.target.value === 'Thème'
-        ? '/css/bulma.css'
-        : ('/css/theme-' + ev.target.value + '.css')
-    }
+    (function () {
+      var $themeCss = document.querySelector('link[rel="x-theme stylesheet"]')
+      var $themeChooser = document.querySelector('#theme-chooser')
+      if ($themeCss && $themeChooser) {
+        var onChange = function (ev) { $themeCss.href = ev.target.value }
+        var themeOption = function (a) {
+          var el = document.createElement('option')
+          el.innerText = a.title
+          el.value = a.href
+          $themeChooser.appendChild(el)
+        }
+        document.querySelectorAll('link[rel="alternate stylesheet"]').forEach(themeOption)
+        $themeChooser.onchange = onChange
+      }
+    }())
   </script>
   </body>
 </html>
