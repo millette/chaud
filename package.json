@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "license": "AGPL-3.0",
   "scripts": {
+    "ln-stats": "ln -s ../stats.html build && ln -s ../data build",
     "ln-roadmap": "ln -s ../roadmap.md build",
-    "postinstall": "ln -s ../roadmap.md build && ln -s node_modules/mdi/fonts && mkdir build && ln -s ../css build && ln -s ../index.html build && ln -s ../node_modules/mdi/fonts build",
+    "postinstall": "ln -s ../stats.html build && ln -s ../data build && ln -s ../roadmap.md build && ln -s node_modules/mdi/fonts && mkdir build && ln -s ../css build && ln -s ../index.html build && ln -s ../node_modules/mdi/fonts build",
     "now": "now ./build --static --name chaud --public",
     "themes": "echo Thèmes disponibles: && echo `ls node_modules/bulmaswatch/*/_overrides.scss|cut -d/ -f3|tr '\n' ' '`",
     "sass-themes": "scripts/theme.sh all",
@@ -19,5 +20,9 @@
     "bulmaswatch": "^0.5.1",
     "mdi": "^2.0.46",
     "node-sass": "^4.5.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "ndjson": "^1.5.0"
   }
 }
