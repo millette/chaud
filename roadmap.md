@@ -36,7 +36,7 @@ Avec des vraies données.
 2. Autres formulaires
 3. Cookie
 4. 3rd party analytics
-5. cdn
+5. cdn 3rd party
 6. annonces 3rd party
 
 ### Formulaires pour mesurer l'intérêt
