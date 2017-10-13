@@ -1,0 +1,137 @@
+[
+  {
+    "value": 9,
+    "type": "3-none",
+    "group": "Village (44)"
+  },
+  {
+    "value": 57,
+    "type": "2-http",
+    "group": "Village (44)"
+  },
+  {
+    "value": 34,
+    "type": "1-https",
+    "group": "Village (44)"
+  },
+  {
+    "value": 8,
+    "type": "3-none",
+    "group": "Municipalité (650)"
+  },
+  {
+    "value": 66,
+    "type": "2-http",
+    "group": "Municipalité (650)"
+  },
+  {
+    "value": 26,
+    "type": "1-https",
+    "group": "Municipalité (650)"
+  },
+  {
+    "value": 7,
+    "type": "3-none",
+    "group": "Village nordique (14)"
+  },
+  {
+    "value": 93,
+    "type": "2-http",
+    "group": "Village nordique (14)"
+  },
+  {
+    "value": 0,
+    "type": "1-https",
+    "group": "Village nordique (14)"
+  },
+  {
+    "value": 2,
+    "type": "3-none",
+    "group": "Ville (227)"
+  },
+  {
+    "value": 56,
+    "type": "2-http",
+    "group": "Ville (227)"
+  },
+  {
+    "value": 42,
+    "type": "1-https",
+    "group": "Ville (227)"
+  },
+  {
+    "value": 12,
+    "type": "3-none",
+    "group": "Canton (42)"
+  },
+  {
+    "value": 55,
+    "type": "2-http",
+    "group": "Canton (42)"
+  },
+  {
+    "value": 33,
+    "type": "1-https",
+    "group": "Canton (42)"
+  },
+  {
+    "value": 8,
+    "type": "3-none",
+    "group": "Paroisse (145)"
+  },
+  {
+    "value": 78,
+    "type": "2-http",
+    "group": "Paroisse (145)"
+  },
+  {
+    "value": 14,
+    "type": "1-https",
+    "group": "Paroisse (145)"
+  },
+  {
+    "value": 0,
+    "type": "3-none",
+    "group": "Village cri (Terre 1-B) (8)"
+  },
+  {
+    "value": 87,
+    "type": "2-http",
+    "group": "Village cri (Terre 1-B) (8)"
+  },
+  {
+    "value": 13,
+    "type": "1-https",
+    "group": "Village cri (Terre 1-B) (8)"
+  },
+  {
+    "value": 0,
+    "type": "3-none",
+    "group": "Village naskapi (Terre 1-BN) (1)"
+  },
+  {
+    "value": 100,
+    "type": "2-http",
+    "group": "Village naskapi (Terre 1-BN) (1)"
+  },
+  {
+    "value": 0,
+    "type": "1-https",
+    "group": "Village naskapi (Terre 1-BN) (1)"
+  },
+  {
+    "value": 0,
+    "type": "3-none",
+    "group": "Cantons unis (2)"
+  },
+  {
+    "value": 100,
+    "type": "2-http",
+    "group": "Cantons unis (2)"
+  },
+  {
+    "value": 0,
+    "type": "1-https",
+    "group": "Cantons unis (2)"
+  }
+]

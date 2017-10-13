@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vega-tooltip/0.4.4/vega-tooltip.min.css" integrity="sha256-PwoZZvAdcP6ZO9zYVtG++e9oIgRr9hMJaHdMVRYkseE=" crossorigin="anonymous" />
+    <title>Indice de sécurité web municipal du Québec - statistiques</title>
+    <link rel="x-theme stylesheet" href="/css/bulma.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1">Statistiques</h1>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container rym-graphs">
+        <div class="columns">
+          <div class="column">
+            <h2 class="title is-4">Par population</h2>
+          </div>
+          <div class="column">
+            <div id="vis-1"></div>
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column">
+            <h2 class="title is-4">Types de municipalité</h2>
+          </div>
+          <div class="column">
+            <div id="vis-2"></div>
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column">
+            <h2 class="title is-4">Régions administratives</h2>
+          </div>
+          <div class="column">
+            <div id="vis-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega/3.0.5/vega.min.js" integrity="sha256-QlC4tF5rUKXe7n4IWa2qUsQAyK8tuXxdN88z3byHCb0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/2.0.0-rc3/vega-lite.min.js" integrity="sha256-1SQ4w+dnFMmSBNCAwW8GKg5RWpAp2gDE8rgbqb1ewC8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-embed/3.0.0-beta.20/vega-embed.min.js" integrity="sha256-jBH1fhu67M6f4zIcGMb6VIK4k+NpV9ze5mHLSO1KxWA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-tooltip/0.4.4/vega-tooltip.min.js" integrity="sha256-RhZI7lCxlXjFPhg9La2yJhL+IvRATVAlXSLMoCnhpag=" crossorigin="anonymous"></script>
+    <script>
+      !(function () {
+        var spec1 = {
+          "$schema": "https://vega.github.io/schema/vega-lite/v2.0.0-rc3.json",
+          "config": {
+            "view": {
+              "width": 600
+            }
+          },
+          "data": {
+            "url": '/data/mpopul.json'
+          },
+          "mark": "bar",
+          "encoding": {
+            "y": { "field": "group", "type": "nominal" },
+            "x": { "aggregate": "sum", "field": "value", "type": "quantitative" },
+            "color": { "field": "type", "type": "nominal" }
+          }
+        }
+
+        var spec2 = {
+          "$schema": "https://vega.github.io/schema/vega-lite/v2.0.0-rc3.json",
+          "config": {
+            "view": {
+              "width": 600
+            }
+          },
+          "data": {
+            "url": '/data/mdes.json'
+          },
+          "mark": "bar",
+          "encoding": {
+            "y": { "field": "group", "type": "nominal" },
+            "x": { "aggregate": "sum", "field": "value", "type": "quantitative" },
+            "color": { "field": "type", "type": "nominal" }
+          }
+        }
+
+        var spec3 = {
+          "$schema": "https://vega.github.io/schema/vega-lite/v2.0.0-rc3.json",
+          "config": {
+            "view": {
+              "width": 600
+            }
+          },
+          "data": {
+            "url": '/data/regadm.json'
+          },
+          "mark": "bar",
+          "encoding": {
+            "y": { "field": "group", "type": "nominal" },
+            "x": { "aggregate": "sum", "field": "value", "type": "quantitative" },
+            "color": { "field": "type", "type": "nominal" }
+          }
+        }
+
+        vega.embed('#vis-1', spec1, { actions: false, mode: 'vega-lite' })
+          .then(({ view, spec }) => vegaTooltip.vegaLite(view, spec))
+          .catch(console.error)
+
+        vega.embed('#vis-2', spec2, { actions: false, mode: 'vega-lite' })
+          .then(({ view, spec }) => vegaTooltip.vegaLite(view, spec))
+          .catch(console.error)
+
+        vega.embed('#vis-3', spec3, { actions: false, mode: 'vega-lite' })
+          .then(({ view, spec }) => vegaTooltip.vegaLite(view, spec))
+          .catch(console.error)
+      })()
+    </script>
+  </body>
+</html>

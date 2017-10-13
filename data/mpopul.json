@@ -1,0 +1,167 @@
+[
+  {
+    "value": 9,
+    "type": "3-none",
+    "group": "1 (11)"
+  },
+  {
+    "value": 82,
+    "type": "2-http",
+    "group": "1 (11)"
+  },
+  {
+    "value": 9,
+    "type": "1-https",
+    "group": "1 (11)"
+  },
+  {
+    "value": 16,
+    "type": "3-none",
+    "group": "159 (45)"
+  },
+  {
+    "value": 60,
+    "type": "2-http",
+    "group": "159 (45)"
+  },
+  {
+    "value": 24,
+    "type": "1-https",
+    "group": "159 (45)"
+  },
+  {
+    "value": 13,
+    "type": "3-none",
+    "group": "508 (350)"
+  },
+  {
+    "value": 66,
+    "type": "2-http",
+    "group": "508 (350)"
+  },
+  {
+    "value": 21,
+    "type": "1-https",
+    "group": "508 (350)"
+  },
+  {
+    "value": 5,
+    "type": "3-none",
+    "group": "1384 (383)"
+  },
+  {
+    "value": 69,
+    "type": "2-http",
+    "group": "1384 (383)"
+  },
+  {
+    "value": 26,
+    "type": "1-https",
+    "group": "1384 (383)"
+  },
+  {
+    "value": 1,
+    "type": "3-none",
+    "group": "3663 (196)"
+  },
+  {
+    "value": 69,
+    "type": "2-http",
+    "group": "3663 (196)"
+  },
+  {
+    "value": 30,
+    "type": "1-https",
+    "group": "3663 (196)"
+  },
+  {
+    "value": 0,
+    "type": "3-none",
+    "group": "10330 (84)"
+  },
+  {
+    "value": 63,
+    "type": "2-http",
+    "group": "10330 (84)"
+  },
+  {
+    "value": 37,
+    "type": "1-https",
+    "group": "10330 (84)"
+  },
+  {
+    "value": 2,
+    "type": "3-none",
+    "group": "28818 (43)"
+  },
+  {
+    "value": 33,
+    "type": "2-http",
+    "group": "28818 (43)"
+  },
+  {
+    "value": 65,
+    "type": "1-https",
+    "group": "28818 (43)"
+  },
+  {
+    "value": 0,
+    "type": "3-none",
+    "group": "71934 (12)"
+  },
+  {
+    "value": 58,
+    "type": "2-http",
+    "group": "71934 (12)"
+  },
+  {
+    "value": 42,
+    "type": "1-https",
+    "group": "71934 (12)"
+  },
+  {
+    "value": 0,
+    "type": "3-none",
+    "group": "186901 (6)"
+  },
+  {
+    "value": 50,
+    "type": "2-http",
+    "group": "186901 (6)"
+  },
+  {
+    "value": 50,
+    "type": "1-https",
+    "group": "186901 (6)"
+  },
+  {
+    "value": 0,
+    "type": "3-none",
+    "group": "487781 (2)"
+  },
+  {
+    "value": 0,
+    "type": "2-http",
+    "group": "487781 (2)"
+  },
+  {
+    "value": 100,
+    "type": "1-https",
+    "group": "487781 (2)"
+  },
+  {
+    "value": 0,
+    "type": "3-none",
+    "group": "1765616 (1)"
+  },
+  {
+    "value": 0,
+    "type": "2-http",
+    "group": "1765616 (1)"
+  },
+  {
+    "value": 100,
+    "type": "1-https",
+    "group": "1765616 (1)"
+  }
+]

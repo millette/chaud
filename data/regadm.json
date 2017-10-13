@@ -1,0 +1,257 @@
+[
+  {
+    "value": 6,
+    "type": "3-none",
+    "group": "Montérégie (16) (177)"
+  },
+  {
+    "value": 66,
+    "type": "2-http",
+    "group": "Montérégie (16) (177)"
+  },
+  {
+    "value": 28,
+    "type": "1-https",
+    "group": "Montérégie (16) (177)"
+  },
+  {
+    "value": 4,
+    "type": "3-none",
+    "group": "Chaudière-Appalaches (12) (136)"
+  },
+  {
+    "value": 81,
+    "type": "2-http",
+    "group": "Chaudière-Appalaches (12) (136)"
+  },
+  {
+    "value": 15,
+    "type": "1-https",
+    "group": "Chaudière-Appalaches (12) (136)"
+  },
+  {
+    "value": 6,
+    "type": "3-none",
+    "group": "Bas-Saint-Laurent (01) (114)"
+  },
+  {
+    "value": 79,
+    "type": "2-http",
+    "group": "Bas-Saint-Laurent (01) (114)"
+  },
+  {
+    "value": 15,
+    "type": "1-https",
+    "group": "Bas-Saint-Laurent (01) (114)"
+  },
+  {
+    "value": 8,
+    "type": "3-none",
+    "group": "Saguenay--Lac-Saint-Jean (02) (49)"
+  },
+  {
+    "value": 51,
+    "type": "2-http",
+    "group": "Saguenay--Lac-Saint-Jean (02) (49)"
+  },
+  {
+    "value": 41,
+    "type": "1-https",
+    "group": "Saguenay--Lac-Saint-Jean (02) (49)"
+  },
+  {
+    "value": 4,
+    "type": "3-none",
+    "group": "Nord-du-Québec (10) (27)"
+  },
+  {
+    "value": 85,
+    "type": "2-http",
+    "group": "Nord-du-Québec (10) (27)"
+  },
+  {
+    "value": 11,
+    "type": "1-https",
+    "group": "Nord-du-Québec (10) (27)"
+  },
+  {
+    "value": 23,
+    "type": "3-none",
+    "group": "Abitibi-Témiscamingue (08) (65)"
+  },
+  {
+    "value": 65,
+    "type": "2-http",
+    "group": "Abitibi-Témiscamingue (08) (65)"
+  },
+  {
+    "value": 12,
+    "type": "1-https",
+    "group": "Abitibi-Témiscamingue (08) (65)"
+  },
+  {
+    "value": 10,
+    "type": "3-none",
+    "group": "Outaouais (07) (67)"
+  },
+  {
+    "value": 68,
+    "type": "2-http",
+    "group": "Outaouais (07) (67)"
+  },
+  {
+    "value": 22,
+    "type": "1-https",
+    "group": "Outaouais (07) (67)"
+  },
+  {
+    "value": 1,
+    "type": "3-none",
+    "group": "Laurentides (15) (76)"
+  },
+  {
+    "value": 54,
+    "type": "2-http",
+    "group": "Laurentides (15) (76)"
+  },
+  {
+    "value": 45,
+    "type": "1-https",
+    "group": "Laurentides (15) (76)"
+  },
+  {
+    "value": 7,
+    "type": "3-none",
+    "group": "Estrie (05) (89)"
+  },
+  {
+    "value": 55,
+    "type": "2-http",
+    "group": "Estrie (05) (89)"
+  },
+  {
+    "value": 38,
+    "type": "1-https",
+    "group": "Estrie (05) (89)"
+  },
+  {
+    "value": 18,
+    "type": "3-none",
+    "group": "Côte-Nord (09) (34)"
+  },
+  {
+    "value": 47,
+    "type": "2-http",
+    "group": "Côte-Nord (09) (34)"
+  },
+  {
+    "value": 35,
+    "type": "1-https",
+    "group": "Côte-Nord (09) (34)"
+  },
+  {
+    "value": 0,
+    "type": "3-none",
+    "group": "Montréal (06) (16)"
+  },
+  {
+    "value": 44,
+    "type": "2-http",
+    "group": "Montréal (06) (16)"
+  },
+  {
+    "value": 56,
+    "type": "1-https",
+    "group": "Montréal (06) (16)"
+  },
+  {
+    "value": 5,
+    "type": "3-none",
+    "group": "Capitale-Nationale (03) (59)"
+  },
+  {
+    "value": 73,
+    "type": "2-http",
+    "group": "Capitale-Nationale (03) (59)"
+  },
+  {
+    "value": 22,
+    "type": "1-https",
+    "group": "Capitale-Nationale (03) (59)"
+  },
+  {
+    "value": 5,
+    "type": "3-none",
+    "group": "Mauricie (04) (42)"
+  },
+  {
+    "value": 90,
+    "type": "2-http",
+    "group": "Mauricie (04) (42)"
+  },
+  {
+    "value": 5,
+    "type": "1-https",
+    "group": "Mauricie (04) (42)"
+  },
+  {
+    "value": 1,
+    "type": "3-none",
+    "group": "Centre-du-Québec (17) (79)"
+  },
+  {
+    "value": 56,
+    "type": "2-http",
+    "group": "Centre-du-Québec (17) (79)"
+  },
+  {
+    "value": 43,
+    "type": "1-https",
+    "group": "Centre-du-Québec (17) (79)"
+  },
+  {
+    "value": 3,
+    "type": "3-none",
+    "group": "Lanaudière (14) (58)"
+  },
+  {
+    "value": 69,
+    "type": "2-http",
+    "group": "Lanaudière (14) (58)"
+  },
+  {
+    "value": 28,
+    "type": "1-https",
+    "group": "Lanaudière (14) (58)"
+  },
+  {
+    "value": 11,
+    "type": "3-none",
+    "group": "Gaspésie--Îles-de-la-Madeleine (11) (44)"
+  },
+  {
+    "value": 30,
+    "type": "2-http",
+    "group": "Gaspésie--Îles-de-la-Madeleine (11) (44)"
+  },
+  {
+    "value": 59,
+    "type": "1-https",
+    "group": "Gaspésie--Îles-de-la-Madeleine (11) (44)"
+  },
+  {
+    "value": 0,
+    "type": "3-none",
+    "group": "Laval (13) (1)"
+  },
+  {
+    "value": 0,
+    "type": "2-http",
+    "group": "Laval (13) (1)"
+  },
+  {
+    "value": 100,
+    "type": "1-https",
+    "group": "Laval (13) (1)"
+  }
+]
