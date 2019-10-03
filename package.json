@@ -5,7 +5,7 @@
   "scripts": {
     "ln-stats": "ln -s ../stats.html build && ln -s ../data build",
     "ln-roadmap": "ln -s ../roadmap.md build",
-    "postinstall": "ln -s ../stats.html build && ln -s ../data build && ln -s ../roadmap.md build && ln -s node_modules/mdi/fonts && mkdir build && ln -s ../css build && ln -s ../index.html build && ln -s ../node_modules/mdi/fonts build",
+    "postinstall666": "ln -s ../stats.html build && ln -s ../data build && ln -s ../roadmap.md build && ln -s node_modules/mdi/fonts && mkdir build && ln -s ../css build && ln -s ../index.html build && ln -s ../node_modules/mdi/fonts build",
     "now": "now ./build --static --name chaud --public",
     "themes": "echo Thèmes disponibles: && echo `ls node_modules/bulmaswatch/*/_overrides.scss|cut -d/ -f3|tr '\n' ' '`",
     "sass-themes": "scripts/theme.sh all",
