@@ -19,7 +19,7 @@
     "bulma": "^0.5.3",
     "bulmaswatch": "^0.5.1",
     "mdi": "^2.0.46",
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.13.0"
   },
   "dependencies": {
     "lodash": "^4.17.4",
